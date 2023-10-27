@@ -1,5 +1,7 @@
 let block_question = document.getElementById('block_question');
-let btn_reload = document.getElementById('btn_reload').addEventListener('click',()=> location.reload())
+let btn_reload = document.getElementById('btn_reload').addEventListener('click',()=> location.reload(
+
+))
 // Liste des lettres de l'alphabet
 const alphabet = [];
 for (var i = 65; i <= 90; i++) {
@@ -137,7 +139,7 @@ if(checkbox_15.checked){
 
 console.log(motdePasse_array);
 
-const chaineConcatenee = motdePasse_array.join(" ");
+const chaineConcatenee = motdePasse_array.join("");
 
 let block_rep = document.createElement('p');
 block_rep.classList.add('text-center');
