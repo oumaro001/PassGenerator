@@ -142,7 +142,7 @@ console.log(motdePasse_array);
 const chaineConcatenee = motdePasse_array.join("");
 
 let block_rep = document.createElement('p');
-block_rep.classList.add('text-center');
+block_rep.classList.add('text-center','d-flex','flex-wrap');
 
 block_rep.innerHTML = `${chaineConcatenee}`;
 
